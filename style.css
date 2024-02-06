@@ -1,0 +1,212 @@
+a {
+    text-decoration: none;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    height: 100%;
+    line-height: 1;
+    font-size: 14px;
+    color: #363636;
+    font-weight: 400;
+    margin: 0px 0px 0px 0px;
+    font-family: 'Nunito Sans', sans-serif;
+    /* font-family: 'Yeseva One', cursive; */
+}
+
+/* -------------------------------------------- */
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+/* -------------------------------------------- */
+._container {
+    max-width: 1236px;
+    padding: 0px 15px;
+    margin: 0px auto;
+    box-sizing: content-box;
+}
+
+.main-block2 {
+    background-color: #131313;
+    /*padding: 107px 0px 783px 0px;
+     ------временный ------- */
+    padding: 100px 0px 100px 0px;
+}
+.main-block2__container {
+    display: flex;
+}
+.main-block2__body {
+    max-width: 442px;
+    margin: 69px 0px 0px 31px;
+}
+.main-block2__title {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-size: 27px;
+    line-height: calc(37 * 100% / 27);
+    letter-spacing: -0.07em;
+    text-transform: uppercase;
+    color: #E3B873;
+    margin: 0px 0px 34px 0px;
+}
+.main-block2__text {
+    font-size: 14px;
+    line-height: calc(27 * 100% / 14);
+    color: #FFFFFF;
+    margin-bottom: 42px;
+}
+.main-block2__information-box {
+    display: flex;
+    flex-wrap: wrap;
+}
+.main-block2__information-city {
+    width: 50%;
+}
+.main-block2__information-box--title {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-size: 18px;
+    line-height: calc(25 * 100% / 18);
+    text-transform: uppercase;
+    color: #E3B873;
+    margin-top: 0px;
+}
+.main-block2__information-box--text {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: calc(21 * 100% / 13);
+    color: #FFFFFF;
+}
+.text-city {
+
+}
+.area-apart {
+
+}
+.repair-time {
+
+}
+.repair-cost {
+    
+}
+
+.main-block2__information-area {
+}
+.main-block2__information-repair-time {
+    width: 50%;
+}
+.main-block2__information-repair-cost {
+}
+.main-block2__slider {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 80px;
+}
+.main-block2__slider-img{
+    margin-top: 80px;
+}
+.main-block2__slider-arrow {
+    color: #fff;
+    cursor: pointer;
+}
+.slider-left{
+    
+}
+.slider-right {
+
+}
+.main-block2__slider-dots {
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.slider__dots-item {
+    width: 10px;
+    height: 10px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    margin: 0 9px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.slider__dots-item:hover, .slider__dots-item.active {
+    background: #FFF;
+}
+
+.main-block2__imagebox {
+    padding: 0px 0px 0px 50px;
+}
+.main-block2__cityproject {
+}
+.citymenu {
+}
+.citymenu__list {
+    display: flex;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 45px 0px;
+}
+.citymenu__item {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-size: 14px;
+    line-height: calc(19 * 100% / 14);
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.3);
+    margin: 0px 60.5px 0px 0px;
+    cursor: pointer;
+}
+.citymenu__link {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-size: 14px;
+    line-height: calc(19 * 100% / 14);
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.3);
+}
+.citymenu__link-active{
+    border-bottom: 2px solid;
+    padding-bottom: 7px;
+    color: #E3B873;
+}
+.citymenu__item:hover { 
+    color: #E3B873;
+}
+.main-block2__images {
+    /* background-image: url(../images/admiral-proj-img.png);
+    background-size: cover; */
+}
+.main-block2__images .image {
+    width: 679px;
+    height: 482px;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 300ms ease;
+}
+.main-block2__images .image.active {
+    opacity: 1;
+}
+.main-block2__image-project {
+}
